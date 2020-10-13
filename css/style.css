@@ -1,0 +1,187 @@
+/** Font **/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+
+/** CSS Document **/
+
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+html
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;    
+        font-family: "Quicksand", sans-serif;
+        color: #7f5c7c;
+    }
+main
+    {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.top
+    {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+.bottom
+    {
+        height: fit-content;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+.column
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+.row
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+div
+    {
+        height: 64px;
+        width: 64px;
+        margin: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        padding: 5px 9px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 4px 0px #eadbf0;
+    }
+.text
+    {
+        padding: 9px 0;
+        width: 80px;
+        box-shadow: none;
+    }
+.number
+    {
+        display: flex;
+        align-self: flex-start;
+        font-size: 9px;
+        font-weight: 500;
+    }
+h1
+    {
+        display: flex;
+        align-self: center;
+        font-size: 19px;
+        font-weight: 700;
+        margin-top: -4px;
+    }
+h2
+    {
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: -5px;
+        text-align: right;
+    }
+span
+    {
+        font-size: 19px;
+    }
+.numbers-grid-top
+    {
+        margin-top: 0;
+        text-align: center;
+    }
+.numbers-grid-left
+    {
+        height: 64px;
+        width: fit-content;
+        margin: 3px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.name
+    {
+        display: flex;
+        align-self: center;
+        font-size: 9px;
+        font-weight: 700;
+    }
+.asterisk
+    {
+        font-size: 29px;
+        margin-top: 10px;
+    }
+
+/** Div colors **/
+
+.peach
+    {
+        background-color: #fcbeba;
+
+    }
+.dark-orange
+    {
+        background-color: #facabd;
+    }
+.light-orange
+    {
+        background-color: #fbdbb1;
+    }
+.yellow
+    {
+        background-color: #f7fbbc;
+    }
+.green
+    {
+        background-color:#d3f8df;
+    }
+.light-blue
+    {
+        background-color: #c4f2f8;
+    }
+.blue
+    {
+        background-color:#c2d6f5;
+    }
+.purple
+    {
+        background-color: #c6bffd;
+    }
+.lilac
+    {
+        background-color: #e5b8ef;
+    }
+.pink
+    {
+        background-color: #f8c9ef;
+    }
